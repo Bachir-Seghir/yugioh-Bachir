@@ -1,0 +1,1026 @@
+[
+  {
+    "id": 27551,
+    "name": "Limit Reverse",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Target 1 monster with 1000 or less ATK in your Graveyard; Special Summon it in Attack Position. If the target is changed to Defense Position, destroy it and this card. When this card leaves the field, destroy the target. When the target is destroyed, destroy this card."
+  },
+  {
+    "id": 32864,
+    "name": "The 13th Grave",
+    "atk": 1200,
+    "def": 900,
+    "level": 3,
+    "desc": "A zombie that suddenly appeared from plot #13 - an empty grave."
+  },
+  {
+    "id": 41777,
+    "name": "Gem-Enhancement",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Tribute 1 \"Gem-Knight\" monster, then target 1 \"Gem-Knight\" monster in your Graveyard; Special Summon that target from the Graveyard."
+  },
+  {
+    "id": 50755,
+    "name": "Magician's Circle",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "When a Spellcaster-Type monster declares an attack: Each player Special Summons 1 Spellcaster-Type monster with 2000 or less ATK from their Deck in Attack Position."
+  },
+  {
+    "id": 62121,
+    "name": "Castle of Dark Illusions",
+    "atk": 920,
+    "def": 1930,
+    "level": 4,
+    "desc": "FLIP: Increases the ATK and DEF of all Zombie-Type monsters by 200 points. As long as this card remains face-up on the field, the ATK and DEF of Zombie-Type monsters continues to increase by 200 points during each of your Standby Phases. This effect continues until the 4th turn after the card is activated."
+  },
+  {
+    "id": 102380,
+    "name": "Lava Golem",
+    "atk": 3000,
+    "def": 2500,
+    "level": 8,
+    "desc": "Cannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) to your opponent's side of the field by Tributing 2 monsters they control. You cannot Normal Summon/Set the turn you Special Summon this card. During each of the controller's Standby Phases: The controller takes 1000 damage."
+  },
+  {
+    "id": 114932,
+    "name": "Seismic Crasher",
+    "atk": 1400,
+    "def": 300,
+    "level": 3,
+    "desc": "Twice per turn, you can send 1 face-up Continuous Spell or Continuous Trap Card you control to the Graveyard to inflict 500 damage to your opponent."
+  },
+  {
+    "id": 123709,
+    "name": "Laval Lancelord",
+    "atk": 2100,
+    "def": 200,
+    "level": 6,
+    "desc": "You can Normal Summon this card without Tributing. If you do, during the End Phase: Send it to the Graveyard. When this card on the field is destroyed and sent to the Graveyard: You can target 1 of your banished FIRE monsters; add that target to your hand."
+  },
+  {
+    "id": 126218,
+    "name": "Skull Dice",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Roll a six-sided die. All monsters your opponent currently controls lose ATK and DEF equal to the result x 100, until the End Phase."
+  },
+  {
+    "id": 128454,
+    "name": "Performapal Springoose",
+    "atk": 1100,
+    "def": 2400,
+    "level": 5,
+    "desc": "You can banish this card from your Graveyard, then target 2 \"Magician\" or \"Performapal\" cards in your Pendulum Zones and/or Pendulum Monsters you control; return both of them to the hand. You can only use this effect of \"Performapal Springoose\" once per turn."
+  },
+  {
+    "id": 131182,
+    "name": "Miracle Flipper",
+    "atk": 300,
+    "def": 500,
+    "level": 2,
+    "desc": "If you control a \"Miracle Flipper\", you cannot Summon this card. Your opponent cannot select another face-up monster as an attack target. If this card is destroyed by battle, Special Summon it to your opponent's side of the field at the end of the Battle Phase. If this card is destroyed by the effect of a Spell or Trap Card, destroy 1 monster your opponent controls."
+  },
+  {
+    "id": 135598,
+    "name": "Key Mouse",
+    "atk": 100,
+    "def": 100,
+    "level": 1,
+    "desc": "When this card is destroyed by battle and sent to the Graveyard, you can add 1 Level 3 or lower Beast-Type monster from your deck to your hand."
+  },
+  {
+    "id": 164710,
+    "name": "Mischief of the Gnomes",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "This turn, reduce the Levels of all monsters in each player's hand by 1 (even after they are Summoned/Set). You can banish this card from the Graveyard; this turn, reduce the Levels of all monsters in each player's hand by 1 (even after they are Summoned/Set)."
+  },
+  {
+    "id": 168917,
+    "name": "Vylon Hept",
+    "atk": 1800,
+    "def": 800,
+    "level": 4,
+    "desc": "Once per turn: You can target 1 face-up \"Vylon\" monster you control treated as an Equip Card; Special Summon it in face-up Defense Position. When that monster leaves the field, banish it."
+  },
+  {
+    "id": 176392,
+    "name": "Koa'ki Meiru Prototype",
+    "atk": 1800,
+    "def": 1800,
+    "level": 4,
+    "desc": "If a face-up \"Koa'ki Meiru\" monster(s) on the field would be destroyed during the End Phase, you can destroy this card instead. When a face-up \"Koa'ki Meiru\" monster(s) on the field is destroyed during the End Phase, you can Special Summon 1 \"Koa'ki Meiru Token\" (Rock-Type/EARTH/Level 4/ATK 1800/DEF 1800)"
+  },
+  {
+    "id": 176393,
+    "name": "Koa'ki Meiru Token",
+    "atk": 1800,
+    "def": 1800,
+    "level": 4,
+    "desc": "Summoned by the effect of \"Koa'ki Meiru Prototype\""
+  },
+  {
+    "id": 191749,
+    "name": "Hero Flash!!",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Banish \"H - Heated Heart\", \"E - Emergency Call\", \"R - Righteous Justice\" and \"O - Oversoul\" from your Graveyard; Special Summon 1 \"Elemental HERO\" Normal Monster from your Deck. All \"Elemental HERO\" Normal Monsters you currently control can attack your opponent directly this turn."
+  },
+  {
+    "id": 213326,
+    "name": "E - Emergency Call",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Add 1 \"Elemental HERO\" monster from your Deck to your hand."
+  },
+  {
+    "id": 218704,
+    "name": "Fenrir",
+    "atk": 1400,
+    "def": 1200,
+    "level": 4,
+    "desc": "This card cannot be Normal Summoned or Set. This card can only be Special Summoned by removing 2 WATER monsters in your Graveyard from play. When this card destroys an opponent's monster as a result of battle, your opponent skips his/her next Draw Phase."
+  },
+  {
+    "id": 242146,
+    "name": "Ballista of Rampart Smashing",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "If the equipped monster attacks a face-down Defense Position monster, it gains 1500 ATK during damage calculation only."
+  },
+  {
+    "id": 255998,
+    "name": "Rapid Warrior",
+    "atk": 1200,
+    "def": 200,
+    "level": 4,
+    "desc": "During your Main Phase 1, you can activate this card's effect. If you do, it can attack your opponent directly this turn. Other monsters cannot attack during the turn you activate this effect."
+  },
+  {
+    "id": 259314,
+    "name": "Inzektor Gauntlet",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Target 1 face-up \"Inzektor\" monster you control; equip this card to that target. It gains 1000 DEF, and cannot be destroyed by your opponent's card effects."
+  },
+  {
+    "id": 269012,
+    "name": "Mound of the Bound Creator",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Level 10 or higher monsters on the field cannot be targeted or destroyed by card effects. If a Level 10 or higher monster on the field destroys a monster by battle and sends it to the Graveyard: The player who controlled the destroyed monster takes 1000 damage. When this card on the field is destroyed by a card effect and sent to the Graveyard: You can add 1 DIVINE monster from your Deck to your hand."
+  },
+  {
+    "id": 282886,
+    "name": "Mermail Abyssnose",
+    "atk": 1500,
+    "def": 1500,
+    "level": 4,
+    "desc": "When this card destroys an opponent's monster by battle and sends it to the Graveyard: You can discard 1 WATER monster to the Graveyard; Special Summon 1 \"Mermail\" monster from your Deck in face-up Defense Position. You can only use the effect of \"Mermail Abyssnose\" once per turn."
+  },
+  {
+    "id": 286392,
+    "name": "Jet Warrior",
+    "atk": 2100,
+    "def": 1200,
+    "level": 5,
+    "desc": "\"Jet Synchron\" + 1 or more non-Tuner monsters\r\nIf this card is Synchro Summoned: You can target 1 card your opponent controls; return it to the hand. If this card is in your Graveyard: You can Tribute 1 Level 2 or lower monster; Special Summon this card from your Graveyard in Defense Position, but banish it when it leaves the field. You can only use each effect of \"Jet Warrior\" once per turn."
+  },
+  {
+    "id": 293542,
+    "name": "T.G. Warwolf",
+    "atk": 1200,
+    "def": 0,
+    "level": 3,
+    "desc": "When a Level 4 or lower monster is Special Summoned, you can Special Summon this card from your hand. During the End Phase of the turn this card on the field was destroyed and sent to the Graveyard, you can add 1 \"T.G.\" monster from your Deck to your hand, except \"T.G. Warwolf\"."
+  },
+  {
+    "id": 295517,
+    "name": "A Legendary Ocean",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "This card's name is treated as \"Umi\". Reduce the Level of all WATER monsters in both player's hands and on the field by 1. All WATER monsters gain 200 ATK and DEF."
+  },
+  {
+    "id": 296499,
+    "name": "The Regulation of Tribe",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Declare 1 Type of monster. Monsters of the declared Type cannot attack. Tribute 1 monster from your side of the field during each of your Standby Phases. If you do not, this card is destroyed."
+  },
+  {
+    "id": 303660,
+    "name": "Amplifier",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Equip only to \"Jinzo\". While this card is equipped, the equipped monster's effect does not negate the effects of its controller's Trap Cards. When this card is removed from the field, destroy the equipped monster. This card's activation and effect cannot be negated."
+  },
+  {
+    "id": 313513,
+    "name": "Spell Gear",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Send 3 face-up \"Ancient Gear\" cards you control to the Graveyard. You can Special Summon up to 1 \"Ancient Gear Golem\" from your hand and 1 from your Deck, ignoring the Summoning Conditions. Then, destroy all monsters you control except \"Ancient Gear Golems\". You cannot Normal Summon or Set until the end of your next turn."
+  },
+  {
+    "id": 336369,
+    "name": "Gusto Squirro",
+    "atk": 0,
+    "def": 1800,
+    "level": 2,
+    "desc": "When this card is destroyed by a card effect and sent to the Graveyard: You can Special Summon 1 Level 5 or higher \"Gusto\" monster from your Deck."
+  },
+  {
+    "id": 340002,
+    "name": "Performapal Hammer Mammoth",
+    "atk": 2600,
+    "def": 1800,
+    "level": 6,
+    "desc": "If you control 2 or more \"Performapal\" cards, you can Normal Summon this card without Tributing. Cannot attack unless you control another \"Performapal\" card. When this card declares an attack: You can return all Spell and Trap Cards your opponent controls to the hand."
+  },
+  {
+    "id": 359563,
+    "name": "Evilswarm Nightmare",
+    "atk": 950,
+    "def": 1950,
+    "level": 4,
+    "desc": "2 Level 4 DARK monsters\nWhen your opponent Special Summons a monster: You can detach 1 Xyz Material from this card; change that monster into face-down Defense Position."
+  },
+  {
+    "id": 387282,
+    "name": "Gagaga Sister",
+    "atk": 200,
+    "def": 800,
+    "level": 2,
+    "desc": "When this card is Normal Summoned: You can add 1 \"Gagaga\" Spell/Trap Card from your Deck to your hand. You can target 1 other \"Gagaga\" monster you control; the Levels of both that monster and this card become the combined current Levels of those 2 monsters, until the End Phase. You can only use this effect of \"Gagaga Sister\" once per turn."
+  },
+  {
+    "id": 402568,
+    "name": "Wattgiraffe",
+    "atk": 1200,
+    "def": 100,
+    "level": 4,
+    "desc": "This card can attack your opponent directly. When this card inflicts Battle Damage to your opponent as a result of a direct attack, your opponent cannot activate the effects of any Spell, Trap, or Effect Monster Cards until the End Phase of this turn."
+  },
+  {
+    "id": 403847,
+    "name": "The A. Forces",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "All Warrior-Type monsters you control gain 200 ATK for each Warrior or Spellcaster-Type monster you control."
+  },
+  {
+    "id": 423585,
+    "name": "Summoner Monk",
+    "atk": 800,
+    "def": 1600,
+    "level": 4,
+    "desc": "While this card is face-up on the field, it cannot be Tributed. If this card is Normal or Flip Summoned: Change this card to Defense Position. Once per turn: You can discard 1 Spell Card; Special Summon 1 Level 4 monster from your Deck, but that monster cannot attack this turn."
+  },
+  {
+    "id": 423705,
+    "name": "Gearfried the Iron Knight",
+    "atk": 1800,
+    "def": 1600,
+    "level": 4,
+    "desc": "When an Equip Card(s) is equipped to this card: Destroy the Equip Card(s)."
+  },
+  {
+    "id": 425934,
+    "name": "Goblin of Greed",
+    "atk": 1000,
+    "def": 1800,
+    "level": 4,
+    "desc": "As long as this card remains face-up on your side of the field, neither player can activate an effect by discarding from his/her hand."
+  },
+  {
+    "id": 440556,
+    "name": "Bahamut Shark",
+    "atk": 2600,
+    "def": 2100,
+    "level": 4,
+    "desc": "2 Level 4 WATER monsters\nOnce per turn: You can detach 1 Xyz Material from this card; Special Summon 1 Rank 3 or lower WATER Xyz Monster from your Extra Deck. This card cannot attack for the rest of this turn."
+  },
+  {
+    "id": 464362,
+    "name": "Frightfur Tiger",
+    "atk": 1900,
+    "def": 1200,
+    "level": 6,
+    "desc": "\"Edge Imp Sabres\" + 1 or more \"Fluffal\" monsters\r\nYou can only control 1 \"Frightfur Tiger\". When this card is Fusion Summoned: You can target a number of cards on the field, up to the number of Fusion Materials used for its Fusion Summon; destroy them. All \"Frightfur\" monsters you control gain 300 ATK for each \"Fluffal\" and \"Frightfur\" monster you control."
+  },
+  {
+    "id": 473469,
+    "name": "Driving Snow",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "You can only activate this card when 1 or more of your Trap Cards are destroyed and sent from the field to the Graveyard by a card effect your opponent controls. Destroy 1 Spell or Trap Card on the field."
+  },
+  {
+    "id": 487395,
+    "name": "Water Spirit",
+    "atk": 400,
+    "def": 1200,
+    "level": 1,
+    "desc": "This ancient water spirit haunts the glacial monoliths of Antarctica. It has the power to seep into the pores of any substance and chill it to the bone."
+  },
+  {
+    "id": 494922,
+    "name": "Superheavy Samurai Warlord Susanowo",
+    "atk": 2400,
+    "def": 3800,
+    "level": 10,
+    "desc": "1 Machine-Type Tuner + 1 or more non-Tuner \"Superheavy Samurai\" monsters\r\nThis card can attack while in face-up Defense Position. If it does, apply its DEF for damage calculation. Once per turn, during either player's turn, if you have no Spell/Trap Cards in your Graveyard: You can target 1 Spell/Trap Card in your opponent's Graveyard; Set it to your side of the field, but banish it when it leaves the field."
+  },
+  {
+    "id": 525110,
+    "name": "Cherry Inmato",
+    "atk": 700,
+    "def": 400,
+    "level": 2,
+    "desc": "When this card is destroyed by battle and sent to the Graveyard, you can Special Summon up to 2 \"Inmato\" monsters from your Deck. The monster(s) Special Summoned by this effect cannot be used as Synchro Material Monsters this turn."
+  },
+  {
+    "id": 549481,
+    "name": "Prevent Rat",
+    "atk": 500,
+    "def": 2000,
+    "level": 4,
+    "desc": "This creature is shielded with a tough hide of hair and is excellent at defending itself."
+  },
+  {
+    "id": 564541,
+    "name": "Totem Dragon",
+    "atk": 400,
+    "def": 200,
+    "level": 2,
+    "desc": "This card can be treated as 2 Tributes for the Tribute Summon of a Dragon-Type monster. If this card is in your Graveyard during your Standby Phase and you control no monsters, you can Special Summon this card in Attack Position. You cannot activate this effect if there are any monsters in your Graveyard that are not Dragon-Type. If this card is Special Summoned with this effect, remove it from play when it is removed from the field."
+  },
+  {
+    "id": 581014,
+    "name": "Daigusto Emeral",
+    "atk": 1800,
+    "def": 800,
+    "level": 4,
+    "desc": "2 Level 4 monsters\r\nOnce per turn: You can detach 1 Xyz Material from this card, then activate 1 of these effects.\r\n● Target 3 monsters in your Graveyard; shuffle all 3 into the Deck, then draw 1 card.\r\n● Target 1 non-Effect Monster in your Graveyard; Special Summon that target."
+  },
+  {
+    "id": 596051,
+    "name": "Snake Fang",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Decrease 1 face-up monster's DEF by 500 points until the end of this turn."
+  },
+  {
+    "id": 598988,
+    "name": "Malefic Rainbow Dragon",
+    "atk": 4000,
+    "def": 0,
+    "level": 10,
+    "desc": "This card cannot be Normal Summoned or Set. This card cannot be Special Summoned, except by removing from play 1 \"Rainbow Dragon\" from your hand or Deck. There can only be 1 face-up \"Malefic\" monster on the field. Other monsters you control cannot declare an attack. If there is no face-up Field Spell Card on the field, destroy this card."
+  },
+  {
+    "id": 601193,
+    "name": "Virgil, Rock Star of the Burning Abyss",
+    "atk": 2500,
+    "def": 1000,
+    "level": 6,
+    "desc": "1 Tuner + 1 or more non-Tuner monsters\r\nYou can only control 1 \"Virgil, Rock Star of the Burning Abyss\". Once per turn: You can discard 1 \"Burning Abyss\" card, then target 1 card your opponent controls or in their Graveyard; shuffle it into the Deck. If this card on the field is destroyed by battle or card effect and sent to the Graveyard: You can draw 1 card. You can only use this effect of \"Virgil, Rock Star of the Burning Abyss\" once per turn."
+  },
+  {
+    "id": 612115,
+    "name": "Gladiator Beast Retiari",
+    "atk": 1200,
+    "def": 800,
+    "level": 3,
+    "desc": "When this card is Special Summoned by the effect of a \"Gladiator Beast\" monster, you can banish 1 card from your opponent's Graveyard. At the end of the Battle Phase, if this card attacked or was attacked, you can return it to the Deck to Special Summon 1 \"Gladiator Beast\" monster from your Deck except \"Gladiator Beast Retiari\"."
+  },
+  {
+    "id": 652362,
+    "name": "Alien Ammonite",
+    "atk": 500,
+    "def": 200,
+    "level": 1,
+    "desc": "When this card is Normal Summoned, you can Special Summon 1 Level 4 or lower \"Alien\" monster from your Graveyard. Destroy it during the End Phase."
+  },
+  {
+    "id": 674561,
+    "name": "Dark Eruption",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Target 1 DARK monster with 1500 or less ATK in your Graveyard; add that target to your hand."
+  },
+  {
+    "id": 691925,
+    "name": "Solar Recharge",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Discard 1 \"Lightsworn\" monster; draw 2 cards, then send the top 2 cards of your Deck to the Graveyard."
+  },
+  {
+    "id": 698785,
+    "name": "Thunder End Dragon",
+    "atk": 3000,
+    "def": 2000,
+    "level": 8,
+    "desc": "2 Level 8 Normal Monsters\nOnce per turn: You can detach 1 Xyz Material from this card; destroy all other monsters on the field."
+  },
+  {
+    "id": 706925,
+    "name": "Atlantean Marksman",
+    "atk": 1400,
+    "def": 0,
+    "level": 3,
+    "desc": "When this card inflicts Battle Damage to your opponent: You can Special Summon 1 Level 4 or lower Sea Serpent-Type \"Atlantean\" monster, except \"Atlantean Marksman\", from your Deck. When this card is sent to the Graveyard to activate a WATER monster's effect: Target 1 Set card your opponent controls; destroy that target."
+  },
+  {
+    "id": 712559,
+    "name": "Amazoness Village",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "All \"Amazoness\" monsters gain 200 ATK. Once per turn, when an \"Amazoness\" monster is destroyed by battle or by a card effect and sent to the Graveyard: You can Special Summon 1 \"Amazoness\" monster from your Deck with a Level less than or equal to that \"Amazoness\" monster in the Graveyard."
+  },
+  {
+    "id": 732302,
+    "name": "Temple of Skulls",
+    "atk": 900,
+    "def": 1300,
+    "level": 4,
+    "desc": "A mysterious temple of skulls and bones that pulls in unsuspecting enemies."
+  },
+  {
+    "id": 734741,
+    "name": "Rubic, Malebranche of the Burning Abyss",
+    "atk": 100,
+    "def": 2100,
+    "level": 3,
+    "desc": "If you control a monster that is not a \"Burning Abyss\" monster, destroy this card. Cannot be used as a Synchro Material, except for the Synchro Summon of a \"Burning Abyss\" Synchro Monster. If you control no Spell/Trap Cards: You can Special Summon this card from your hand. You can only use this effect of \"Rubic, Malebranche of the Burning Abyss\" once per turn."
+  },
+  {
+    "id": 756652,
+    "name": "Doron",
+    "atk": 900,
+    "def": 500,
+    "level": 2,
+    "desc": "This monster splits in two and attacks from opposite sides."
+  },
+  {
+    "id": 759393,
+    "name": "Hiita the Fire Charmer",
+    "atk": 500,
+    "def": 1500,
+    "level": 3,
+    "desc": "FLIP: Take control of 1 FIRE monster on your opponent's side of the field for as long as this card remains face-up on the field."
+  },
+  {
+    "id": 770365,
+    "name": "Empress of Prophecy",
+    "atk": 2000,
+    "def": 1700,
+    "level": 5,
+    "desc": "2 Level 5 Spellcaster-Type monsters\n This card gains 300 ATK for each Xyz Material attached to a monster you control. Once per turn: You can detach 1 Xyz Material from this card; shuffle your Deck, then reveal the top 5 cards of your Deck, and destroy monsters on the field up to the number of \"Spellbook\" cards revealed, then return the revealed cards to the top of the Deck in any order."
+  },
+  {
+    "id": 847915,
+    "name": "Number Wall",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Activate only if you control a \"Number\" monster. \"Number\" monsters on the field cannot be destroyed by card effects, and cannot be destroyed by battle, except with another \"Number\" monster. When a \"Number\" monster you control is destroyed, destroy this card."
+  },
+  {
+    "id": 876330,
+    "name": "Dragunity Arma Mystletainn",
+    "atk": 2100,
+    "def": 1500,
+    "level": 6,
+    "desc": "You can Special Summon this card from your hand by sending 1 face-up \"Dragunity\" monster you control to the Graveyard. When this card is Normal or Special Summoned from the hand, you can select 1 Dragon-Type \"Dragunity\" monster in your Graveyard, and equip it to this card."
+  },
+  {
+    "id": 900787,
+    "name": "Dragunity Knight - Gae Bulg",
+    "atk": 2000,
+    "def": 1100,
+    "level": 6,
+    "desc": "1 Dragon-Type Tuner + 1 or more non-Tuner Winged Beast-Type monsters \n If this card attacks or is attacked, during the Damage Step you can banish 1 (only) Winged Beast-Type monster from your Graveyard, to have this card gain the ATK of that monster until the End Phase."
+  },
+  {
+    "id": 904185,
+    "name": "Vertical Landing",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Tribute any number of WIND monsters, except Tokens; Special Summon an equal number of \"Mecha Phantom Beast Tokens\" (Machine-Type/WIND/Level 3/ATK 0/DEF 0). You can only activate 1 \"Vertical Landing\" per turn."
+  },
+  {
+    "id": 904186,
+    "name": "Mecha Phantom Beast Token",
+    "atk": 0,
+    "def": 0,
+    "level": 3,
+    "desc": "Summoned by the effect of \"Vertical Landing\""
+  },
+  {
+    "id": 911883,
+    "name": "An Unexpected Guy",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "If you control no monsters: Special Summon 1 Level 4 or lower Normal Monster from your Deck."
+  },
+  {
+    "id": 917796,
+    "name": "Gagagatag",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "All \"Gagaga\" monsters you currently control gains 500 ATK for each \"Gagaga\" monster you currently control, until your next Standby Phase. You can only activate 1 \"Gagagatag\" per turn."
+  },
+  {
+    "id": 923596,
+    "name": "Geargiarmor",
+    "atk": 1100,
+    "def": 1900,
+    "level": 4,
+    "desc": "Once per turn: You can change this card to face-down Defense Position. When this card is flipped face-up: You can add 1 \"Geargia\" monster from your Deck to your hand, except \"Geargiarmor\"."
+  },
+  {
+    "id": 967928,
+    "name": "Penalty Game!",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "When your opponent has 4 cards in their hand, select and activate 1 of these effects: ● Your opponent cannot draw during their next Draw Phase. ● Your opponent cannot activate any Spell or Trap Cards this turn."
+  },
+  {
+    "id": 980973,
+    "name": "Armed Dragon LV3",
+    "atk": 1200,
+    "def": 900,
+    "level": 3,
+    "desc": "During your Standby Phase, you can send this face-up card from the field to the Graveyard to Special Summon 1 \"Armed Dragon LV5\" from your hand or Deck."
+  },
+  {
+    "id": 981540,
+    "name": "Half Unbreak",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Target 1 monster on the field; this turn, that monster cannot be destroyed by battle, also halve battle damage you take from battles involving that monster."
+  },
+  {
+    "id": 983995,
+    "name": "Rebound",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "When your opponent activates a Spell Card, Trap Card, or monster effect that returns a card(s) from the field to the hand: Negate that effect, and if you do, send 1 card from your opponent's hand (at random) or from their side of the field to the Graveyard. When this Set card is destroyed by your opponent's card effect and sent to the Graveyard: Draw 1 card."
+  },
+  {
+    "id": 984114,
+    "name": "Expressroid",
+    "atk": 400,
+    "def": 1600,
+    "level": 4,
+    "desc": "When you Summon this card, you can add 2 \"roid\" monsters from your Graveyard to your hand, except \"Expressroid\"."
+  },
+  {
+    "id": 987311,
+    "name": "DDD Alexander the King of Gales",
+    "atk": 2500,
+    "def": 2000,
+    "level": 7,
+    "desc": "1 \"DD\" Tuner + 1 or more non-Tuner monsters\r\nIf a \"DD\" monster(s) is Normal or Special Summoned, except this card (except during the Damage Step): You can target 1 Level 4 or lower \"DD\" monster in your Graveyard; Special Summon that target. You can only use this effect of \"DDD Alexander the King of Gales\" once per turn."
+  },
+  {
+    "id": 1003028,
+    "name": "Doggy Diver",
+    "atk": 1000,
+    "def": 1000,
+    "level": 4,
+    "desc": "If your opponent controls a monster and all face-up monsters you control (min. 1) are Level 4, you can Special Summon this card (from your hand). You can only Special Summon \"Doggy Diver\" once per turn this way. This card cannot be used as an Xyz Material for an Xyz Summon, except for the Xyz Summon of a Warrior-Type monster."
+  },
+  {
+    "id": 1003840,
+    "name": "Starlight Junktion",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "You can Tribute 1 Tuner monster; Special Summon 1 \"Synchron\" monster from your Deck with a different Level than the Tributed monster. If you Special Summon a Synchro Monster from your Extra Deck during your opponent's turn: Target 1 card on the field; shuffle it into the Deck. You can only use each effect of \"Starlight Junktion\" once per turn."
+  },
+  {
+    "id": 1005587,
+    "name": "Void Trap Hole",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "When your opponent Special Summons a monster(s) with 2000 or more ATK: Negate the effects of one of those monsters with 2000 or more ATK, and if you do, destroy it."
+  },
+  {
+    "id": 1036974,
+    "name": "Misfortune",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Select 1 face-up monster your opponent controls. Inflict damage to your opponent equal to half that monster's original ATK. Your monsters cannot attack this turn."
+  },
+  {
+    "id": 1045143,
+    "name": "Geargiano Mk-II",
+    "atk": 1000,
+    "def": 500,
+    "level": 3,
+    "desc": "When this card is Normal or Flip Summoned: You can Special Summon 1 \"Geargia\" monster from your hand or Graveyard in face-up Defense Position."
+  },
+  {
+    "id": 1050186,
+    "name": "Satellarknight Unukalhai",
+    "atk": 1800,
+    "def": 1000,
+    "level": 4,
+    "desc": "If this card is Summoned: You can send 1 \"tellarknight\" card from your Deck to the Graveyard, except \"Satellarknight Unukalhai\". You can only use this effect of \"Satellarknight Unukalhai\" once per turn."
+  },
+  {
+    "id": 1050684,
+    "name": "Scrapyard",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Add 1 \"Scrap\" Tuner monster from your Deck to your hand."
+  },
+  {
+    "id": 1073952,
+    "name": "Magic Planter",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Send 1 face-up Continuous Trap Card you control to the Graveyard. Draw 2 cards."
+  },
+  {
+    "id": 1082946,
+    "name": "Pyro Clock of Destiny",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Move the turn count forward by 1 turn. The turn in which this card is activated continues as normal."
+  },
+  {
+    "id": 1102515,
+    "name": "Dark Mimic LV3",
+    "atk": 1000,
+    "def": 1000,
+    "level": 3,
+    "desc": "If this card is sent to the Graveyard by battle, the controller of this card draws 1 card. If this card was Special Summoned by the effect of \"Dark Mimic LV1\", they draw 2 cards instead."
+  },
+  {
+    "id": 1127737,
+    "name": "Sargasso the D.D. Battlefield",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "When a player Xyz Summons a monster: That player takes 500 damage. During each End Phase, if the turn player controls an Xyz Monster, that player takes 500 damage."
+  },
+  {
+    "id": 1149109,
+    "name": "Deck Lockdown",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Neither player can add cards from their Deck to their hand except by drawing them. Monsters cannot be Special Summoned from the Main Deck. Destroy this card during your 2nd Standby Phase after activation."
+  },
+  {
+    "id": 1184620,
+    "name": "Kojikocy",
+    "atk": 1500,
+    "def": 1200,
+    "level": 4,
+    "desc": "A man-hunter with powerful arms that can crush boulders."
+  },
+  {
+    "id": 1200843,
+    "name": "Mirror of Yata",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Equip only to a Spirit monster. The equipped monster does not have to have its effect that returns it to the hand activated. If it would be destroyed by battle, destroy this card instead."
+  },
+  {
+    "id": 1224927,
+    "name": "Malevolent Catastrophe",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "When an opponent's monster declares an attack: Destroy all Spell and Trap Cards on the field."
+  },
+  {
+    "id": 1248895,
+    "name": "Chain Destruction",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "When a monster(s) with 2000 or less ATK is Summoned: Target 1 of them; destroy all cards with that name in its controller's hand and Deck."
+  },
+  {
+    "id": 1249315,
+    "name": "Herald of Pure Light",
+    "atk": 600,
+    "def": 1000,
+    "level": 2,
+    "desc": "2 Level 2 monsters\r\nYou can detach 1 Xyz Material from this card, then target 1 monster in your Graveyard; add it to your hand, then shuffle 1 card from your hand into the Deck. You can only use the effect of \"Herald of Pure Light\" once per turn."
+  },
+  {
+    "id": 1264319,
+    "name": "Gem-Knight Fusion",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Send, from your hand or your side of the field to the Graveyard, the Fusion Material Monsters that are listed on a \"Gem-Knight\" Fusion Monster Card, then Special Summon that Fusion Monster from the Extra Deck. (This Special Summon is treated as a Fusion Summon.) If this card is in the Graveyard: You can banish 1 \"Gem-Knight\" monster from your Graveyard; add this card to your hand."
+  },
+  {
+    "id": 1281505,
+    "name": "Vylon Tetra",
+    "atk": 900,
+    "def": 900,
+    "level": 2,
+    "desc": "If this card is sent from the Monster Card Zone to the Graveyard: You can pay 500 Life Points, then target 1 face-up monster you control; equip this card to that target. If the equipped monster would be destroyed, you can destroy this Equip Card instead."
+  },
+  {
+    "id": 1287123,
+    "name": "Prime Material Falcon",
+    "atk": 2200,
+    "def": 800,
+    "level": 5,
+    "desc": "When an Effect Monster's effect to destroy a Spell or Trap Card(s) on the field is activated, you can send 1 card from your hand to the Graveyard to negate its activation and destroy the card."
+  },
+  {
+    "id": 1315120,
+    "name": "T.G. Striker",
+    "atk": 800,
+    "def": 0,
+    "level": 2,
+    "desc": "If your opponent controls a monster and you control no monsters, you can Special Summon this card from your hand. During the End Phase of the turn this card on the field was destroyed and sent to the Graveyard, you can add 1 \"T.G.\" monster from your Deck to your hand, except \"T.G. Striker\"."
+  },
+  {
+    "id": 1347977,
+    "name": "Mysterious Guard",
+    "atk": 800,
+    "def": 1200,
+    "level": 3,
+    "desc": "FLIP: Target 1 face-up monster on the field, and if you control a face-up Warrior-Type monster, you can target 1 additional face-up monster on the field; return the first target to the top of the Deck, then return the additional target (if any) to the hand if you still control a face-up Warrior-Type monster."
+  },
+  {
+    "id": 1353770,
+    "name": "Valhalla, Hall of the Fallen",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Once per turn, if you control no monsters, you can Special Summon 1 Fairy-Type monster from your hand."
+  },
+  {
+    "id": 1357146,
+    "name": "Ronintoadin",
+    "atk": 100,
+    "def": 2000,
+    "level": 2,
+    "desc": "This card's name is treated as \"Des Frog\" while face-up on the field. You can remove from play 1 \"Frog\" monster in your Graveyard, except \"Frog the Jam\", to Special Summon this card from your Graveyard. This card cannot be used as a Synchro Material Monster."
+  },
+  {
+    "id": 1362589,
+    "name": "Photon Crusher",
+    "atk": 2000,
+    "def": 0,
+    "level": 4,
+    "desc": "If this card attacks, it is changed to Defense Position at the end of the Damage Step."
+  },
+  {
+    "id": 1371589,
+    "name": "Vampire Koala",
+    "atk": 1800,
+    "def": 1500,
+    "level": 4,
+    "desc": "When this card inflicts Battle Damage to your opponent by battle with a monster: Gain LP equal to the Battle Damage inflicted."
+  },
+  {
+    "id": 1372887,
+    "name": "Shared Ride",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "After this card resolves, each time your opponent adds a card(s) from their Deck or Graveyard to their hand this turn, except by drawing them, you immediately draw 1 card. You can only activate 1 \"Shared Ride\" per turn."
+  },
+  {
+    "id": 1409474,
+    "name": "Hazy Flame Sphynx",
+    "atk": 1900,
+    "def": 1900,
+    "level": 6,
+    "desc": "Your opponent cannot target this card with card effects. You can declare 1 card type (Monster, Spell, or Trap); send the top card of your Deck to the Graveyard, then if it was the declared card type, you can Special Summon 1 FIRE monster from your hand or Graveyard. You can only use this effect of \"Hazy Flame Sphynx\" once per turn."
+  },
+  {
+    "id": 1412158,
+    "name": "Super Roboyarou",
+    "atk": 1200,
+    "def": 500,
+    "level": 6,
+    "desc": "\"Roboyarou\" + \"Robolady\"\nYou can Special Summon \"Super Robolady\" by returning this card from the field to the Fusion Deck. You cannot use this effect during the same turn this monster is Special Summoned. In addition, increase the ATK of this monster by 1000 points during the Damage Step when this monster battles with a monster."
+  },
+  {
+    "id": 1426714,
+    "name": "Number 48: Shadow Lich",
+    "atk": 1800,
+    "def": 0,
+    "level": 3,
+    "desc": "2 Level 3 monsters\r\nOnce per turn, during your opponent's turn: You can detach 1 Xyz Material from this card; Special Summon 1 \"Phantom Token\" (DARK/Fiend-Type/Level 1/ATK 500/DEF 500). (This is a Quick Effect.) While you control a \"Phantom Token\", your opponent cannot target this card for attacks. This card gains 500 ATK for each \"Phantom Token\" you control."
+  },
+  {
+    "id": 1426715,
+    "name": "Phantom Token",
+    "atk": 500,
+    "def": 500,
+    "level": 1,
+    "desc": "To be summoned by the effect of Number 48: Shadow Lich"
+  },
+  {
+    "id": 1434352,
+    "name": "Chaos Necromancer",
+    "atk": 0,
+    "def": 0,
+    "level": 1,
+    "desc": "The ATK of this card is the number of Monster Cards in your Graveyard x 300."
+  },
+  {
+    "id": 1435851,
+    "name": "Dragon Treasure",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "A Dragon-Type monster equipped with this card increases its ATK and DEF by 300 points."
+  },
+  {
+    "id": 1474910,
+    "name": "Bee List Soldier",
+    "atk": 500,
+    "def": 400,
+    "level": 1,
+    "desc": "You can Tribute this card and 1 face-up Insect-Type monster, except \"Bee List Soldier\", to draw 2 cards."
+  },
+  {
+    "id": 1475311,
+    "name": "Allure of Darkness",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Draw 2 cards, then banish 1 DARK monster from your hand, or, if you don't have any in your hand, send all cards in your hand to the Graveyard."
+  },
+  {
+    "id": 1498130,
+    "name": "Kagemusha of the Six Samurai",
+    "atk": 400,
+    "def": 1800,
+    "level": 2,
+    "desc": "When (exactly) 1 face-up \"Six Samurai\" monster you control is targeted by a Spell Card, Trap Card, Spell/Trap effect, or Effect Monster's effect, you can change the target to this face-up card on the field, instead."
+  },
+  {
+    "id": 1516510,
+    "name": "Rune-Eyes Pendulum Dragon",
+    "atk": 3000,
+    "def": 2000,
+    "level": 8,
+    "desc": "\"Odd-Eyes Pendulum Dragon\" + 1 Spellcaster-Type monster\r\nIf this card was Fusion Summoned using a Pendulum Summoned monster(s) on the field as Fusion Material, it is unaffected by your opponent's card effects this turn. Apply the appropriate effect, depending on the original Level of the monster used as Fusion Material that was not \"Odd-Eyes Pendulum Dragon\".\r\n● Level 4 or lower: This card can make up to 2 attacks on monsters during each Battle Phase.\r\n● Level 5 or higher: This card can make up to 3 attacks on monsters during each Battle Phase."
+  },
+  {
+    "id": 1525329,
+    "name": "The Hunter with 7 Weapons",
+    "atk": 1000,
+    "def": 600,
+    "level": 3,
+    "desc": "When this card is Normal Summoned, declare 1 Type of monster. When battling that Type of monster, increase the ATK of this card by 1000 points during Damage Calculation."
+  },
+  {
+    "id": 1533292,
+    "name": "R-Genex Magma",
+    "atk": 1000,
+    "def": 200,
+    "level": 3,
+    "desc": "When this card is Normal Summoned, you can add 1 Level 2 \"R-Genex\" monster from your Deck to your hand."
+  },
+  {
+    "id": 1539051,
+    "name": "Space Gift",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Draw 1 card for each different \"Neo-Spacian\" name on the monsters you control."
+  },
+  {
+    "id": 1546123,
+    "name": "Cyber End Dragon",
+    "atk": 4000,
+    "def": 2800,
+    "level": 10,
+    "desc": "\"Cyber Dragon\" + \"Cyber Dragon\" + \"Cyber Dragon\"\nA Fusion Summon of this card can only be conducted with the above Fusion Material Monsters. If this card attacks a Defense Position monster, inflict piercing Battle Damage to your opponent."
+  },
+  {
+    "id": 1546124,
+    "name": "Cyber End Dragon",
+    "atk": 4000,
+    "def": 2800,
+    "level": 10,
+    "desc": "\"Cyber Dragon\" + \"Cyber Dragon\" + \"Cyber Dragon\"\nA Fusion Summon of this card can only be conducted with the above Fusion Material Monsters. If this card attacks a Defense Position monster, inflict piercing Battle Damage to your opponent."
+  },
+  {
+    "id": 1557341,
+    "name": "Rose, Warrior of Revenge",
+    "atk": 1600,
+    "def": 600,
+    "level": 4,
+    "desc": "When this card inflicts Battle Damage to your opponent, inflict 300 damage to your opponent."
+  },
+  {
+    "id": 1557499,
+    "name": "Silver Bow and Arrow",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "A Fairy-Type monster equipped with this card increases its ATK and DEF by 300 points."
+  },
+  {
+    "id": 1571945,
+    "name": "White Ninja",
+    "atk": 1500,
+    "def": 800,
+    "level": 4,
+    "desc": "FLIP: Destroy 1 Defense Position monster."
+  },
+  {
+    "id": 1586457,
+    "name": "Deep-Space Cruiser IX",
+    "atk": 900,
+    "def": 900,
+    "level": 9,
+    "desc": "You can Special Summon this card (from your hand) by sending 1 other Machine-Type monster from your hand to the Graveyard."
+  },
+  {
+    "id": 1596508,
+    "name": "Dimension Fortress Weapon",
+    "atk": 1700,
+    "def": 200,
+    "level": 4,
+    "desc": "Cards cannot be sent from the Deck to the Graveyard."
+  },
+  {
+    "id": 1639384,
+    "name": "Divine Dragon Knight Felgrand",
+    "atk": 2800,
+    "def": 1800,
+    "level": 8,
+    "desc": "2 Level 8 monsters\r\nOnce per turn, during either player's turn: You can detach 1 Xyz Material from this card, then target 1 face-up monster on the field; this turn, its effects are negated, but it is unaffected by other card effects."
+  },
+  {
+    "id": 1641882,
+    "name": "Fusionist",
+    "atk": 900,
+    "def": 700,
+    "level": 3,
+    "desc": "\"Petit Angel\" + \"Mystical Sheep #2\""
+  },
+  {
+    "id": 1644289,
+    "name": "Vylon Segment",
+    "atk": 0,
+    "def": 0,
+    "level": 0,
+    "desc": "Equip only to a \"Vylon\" monster. It cannot be targeted by the effects of your opponent's Trap Cards or Effect Monsters. If this face-up card is sent to the Graveyard: You can add 1 \"Vylon\" Spell Card from your Deck to your hand."
+  },
+  {
+    "id": 1662004,
+    "name": "Brotherhood of the Fire Fist - Spirit",
+    "atk": 500,
+    "def": 200,
+    "level": 3,
+    "desc": "Cannot be used as a Synchro Material Monster, except for the Synchro Summon of a Beast-Warrior-Type monster. When this card is Normal Summoned: You can target 1 Level 3 FIRE monster with 200 or less DEF in your Graveyard; Special Summon that target in face-up Defense Position. If you do, you can only attack with Beast-Warrior-Type monsters for the rest of this turn. You can only use the effect of \"Brotherhood of the Fire Fist - Spirit\" once per turn."
+  }
+]
