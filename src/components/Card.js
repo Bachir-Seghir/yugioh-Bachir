@@ -1,5 +1,6 @@
 import React from 'react';
 import cardBack from '../img/cardBack.jpg';
+
 export default function Card({ details }) {
   const { name, atk, def, level, desc } = details;
 

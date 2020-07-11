@@ -1,12 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Deck from './Deck';
-import cards from '../cards.json';
+import { Link } from 'react-router-dom';
 
 export default function App() {
   return (
-    <form>
-      <button id='deck'>Go To Deck</button>
-      <button id='play'>Play</button>
-    </form>
+    <div>
+      <Link to='/deck'>Go To Deck</Link>
+      <br />
+      <Link to='/field'>Play Game</Link>
+    </div>
   );
 }
