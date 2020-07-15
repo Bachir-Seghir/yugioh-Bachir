@@ -1,13 +1,15 @@
 import React from 'react';
-import Deck from './Deck';
-import { Link } from 'react-router-dom';
+import Game from './Game';
+
+import CardCtxProvider from '../contexts/CardContext.js';
+import PlayerCtxProvider from '../contexts/PlayerContext.js';
 
 export default function App() {
   return (
-    <div>
-      <Link to='/deck'>Go To Deck</Link>
-      <br />
-      <Link to='/field'>Play Game</Link>
-    </div>
+    <PlayerCtxProvider>
+      <CardCtxProvider>
+        <Game />
+      </CardCtxProvider>
+    </PlayerCtxProvider>
   );
 }
