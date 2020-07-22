@@ -9,10 +9,10 @@ const CardCtxProvider = (props) => {
   const [deck2, setDeck2] = useState(shuffle(cards));
   const [graveyard1, setGraveyard1] = useState([]);
   const [graveyard2, setGraveyard2] = useState([]);
-  const [hand1, setHand1] = useState(Array(7).fill({}));
-  const [hand2, setHand2] = useState(Array(7).fill({}));
-  const [field1, setField1] = useState(Array(5).fill({}));
-  const [field2, setField2] = useState(Array(5).fill({}));
+  const [hand1, setHand1] = useState([]);
+  const [hand2, setHand2] = useState([]);
+  const [field1, setField1] = useState([]);
+  const [field2, setField2] = useState([]);
 
   return (
     <CardContext.Provider

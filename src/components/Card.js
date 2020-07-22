@@ -1,21 +1,34 @@
 import React from 'react';
-import cardBack from '../img/cardBack.jpg';
+import classnames from 'classnames';
 
-export default function Card({ details }) {
-  const { name, atk, def, level, desc } = details;
+export default function Card({ details, classN, detectCard }) {
+  const { name, atk, def, level } = details;
+  const handleCardClick = (event) => {
+    switch (event.target.parentNode.className) {
+      case 'hand':
+        detectCard(event);
+        break;
 
+      default:
+        break;
+    }
+  };
   return (
-    <div className='card'>
+    <div
+      className={classnames(
+        'card',
+        { handCard: classN === 'handCard' },
+        { fieldCard: classN === 'fieldCard' },
+        { deckCard: classN === 'deckCard' }
+      )}
+      onClick={handleCardClick}>
       <div className='card-name'>{name}</div>
-      <span className='card-level'>Level : {level}</span>
-      <div className='card-img'>
-        <img src={cardBack} alt='yugioh card background' />
-      </div>
+      <h5 className='card-level'>Level : {level} </h5>
+
       <div className='card-point'>
-        <h3>Atk : {atk}</h3>
-        <h3>Def : {def}</h3>
+        <h5>Atk : {atk}</h5>
+        <h5>Def : {def}</h5>
       </div>
-      <p className='card-desc'>Desc : {desc}</p>
     </div>
   );
 }

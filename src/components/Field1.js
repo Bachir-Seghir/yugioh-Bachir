@@ -1,4 +1,12 @@
 import React from 'react';
-export default function Field1() {
-  return <div className='field1'>field1</div>;
+import Card from './Card.js';
+
+export default function Field1({ field1 }) {
+  return (
+    <div className='field'>
+      {Object.keys(field1).map((key) => (
+        <Card key={key} details={field1[key]} classN='fieldCard' />
+      ))}
+    </div>
+  );
 }
