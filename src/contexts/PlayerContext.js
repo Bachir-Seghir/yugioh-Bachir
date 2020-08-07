@@ -3,10 +3,15 @@ import React, { useState, createContext } from 'react';
 export const PlayerContext = createContext();
 
 const PlayerCtxProvider = (props) => {
-  const [lifePtsP1, setLifePtsP1] = useState({ pts: 4000 });
-  const [lifePtsP2, setLifePtsP2] = useState({ pts: 3000 });
-  const [cycle, setCycle] = useState({
-    turn: true,
+  const [lifePtsP1, setlifePtsP1] = useState({ pts: 4000 });
+  const [lifePtsP2, setlifePtsP2] = useState({ pts: 3000 });
+  const [cycleP1, setcycleP1] = useState({
+    draw: false,
+    phase1: false,
+    atkPhase: false,
+    endPhase: false,
+  });
+  const [cycleP2, setcycleP2] = useState({
     draw: false,
     phase1: false,
     atkPhase: false,
@@ -16,11 +21,13 @@ const PlayerCtxProvider = (props) => {
     <PlayerContext.Provider
       value={{
         lifePtsP1,
-        setLifePtsP1,
-        cycle,
-        setCycle,
+        setlifePtsP1,
+        cycleP1,
+        setcycleP1,
+        cycleP2,
+        setcycleP2,
         lifePtsP2,
-        setLifePtsP2,
+        setlifePtsP2,
       }}>
       {props.children}
     </PlayerContext.Provider>

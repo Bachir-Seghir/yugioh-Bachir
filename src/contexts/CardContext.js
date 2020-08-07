@@ -1,38 +1,36 @@
 import React, { useState, createContext } from 'react';
-import cards from '../cards.json';
-import { shuffle } from '../helpers.js';
 
 export const CardContext = createContext();
 
 const CardCtxProvider = (props) => {
-  const [deck1, setDeck1] = useState(shuffle(cards));
-  const [deck2, setDeck2] = useState(shuffle(cards));
-  const [graveyard1, setGraveyard1] = useState([]);
-  const [graveyard2, setGraveyard2] = useState([]);
-  const [hand1, setHand1] = useState([]);
-  const [hand2, setHand2] = useState([]);
-  const [field1, setField1] = useState([]);
-  const [field2, setField2] = useState([]);
+  const [deck1, setdeck1] = useState([]);
+  const [deck2, setdeck2] = useState([]);
+  const [graveyard1, setgraveyard1] = useState([]);
+  const [graveyard2, setgraveyard2] = useState([]);
+  const [hand1, sethand1] = useState([]);
+  const [hand2, sethand2] = useState([]);
+  const [field1, setfield1] = useState([]);
+  const [field2, setfield2] = useState([]);
 
   return (
     <CardContext.Provider
       value={{
         deck1,
-        setDeck1,
+        setdeck1,
         deck2,
-        setDeck2,
+        setdeck2,
         graveyard1,
-        setGraveyard1,
+        setgraveyard1,
         graveyard2,
-        setGraveyard2,
+        setgraveyard2,
         hand1,
-        setHand1,
+        sethand1,
         hand2,
-        setHand2,
+        sethand2,
         field1,
-        setField1,
+        setfield1,
         field2,
-        setField2,
+        setfield2,
       }}>
       {props.children}
     </CardContext.Provider>

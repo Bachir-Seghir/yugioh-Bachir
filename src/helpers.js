@@ -17,3 +17,14 @@ export function shuffle(array) {
 
   return array;
 }
+
+export function GetCard(event, cards) {
+  let ClickedCardName = Array.from(
+    event.target.children
+  )[0].innerHTML.toLowerCase();
+  let [clickedCard] = cards.filter(
+    (card) => card.name.toLowerCase() === ClickedCardName
+  );
+
+  return clickedCard;
+}

@@ -1,6 +1,7 @@
-import React, { useCallback } from 'react';
+import React from 'react';
+
 import Card from './Card';
-export default function Deck1({ deck1, setCycle }) {
+export default function Deck1({ deck1 }) {
   return (
     <div className='deck'>
       {Object.keys(deck1).map((key) => (

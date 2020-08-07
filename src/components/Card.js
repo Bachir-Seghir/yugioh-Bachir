@@ -1,12 +1,20 @@
 import React from 'react';
 import classnames from 'classnames';
 
-export default function Card({ details, classN, detectCard }) {
+export default function Card({
+  details,
+  classN,
+  handleHandCard,
+  handleFieldCard,
+}) {
   const { name, atk, def, level } = details;
   const handleCardClick = (event) => {
     switch (event.target.parentNode.className) {
       case 'hand':
-        detectCard(event);
+        handleHandCard(event);
+        break;
+      case 'field':
+        handleFieldCard(event);
         break;
 
       default:

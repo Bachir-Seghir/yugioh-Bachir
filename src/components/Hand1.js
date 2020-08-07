@@ -1,15 +1,12 @@
 import React, { useEffect } from 'react';
 import Card from './Card';
+import { GetCard } from '../helpers';
 export default function Hand1({ hand1, summon }) {
-  const detectCard = (event) => {
-    const ClickedCardName = Array.from(
-      event.target.children
-    )[0].innerHTML.toLowerCase();
-    const [clickedCard] = hand1.filter(
-      (card) => card.name.toLowerCase() === ClickedCardName
-    );
-    summon(hand1, 'field1', clickedCard);
+  const handleHandCard = (event) => {
+    const selectedCard = GetCard(event, hand1);
+    summon('hand1', 'field1', selectedCard);
   };
+
   return (
     <div className='hand'>
       {Object.keys(hand1).map((key) => (
@@ -17,7 +14,7 @@ export default function Hand1({ hand1, summon }) {
           key={key}
           details={hand1[key]}
           classN='handCard'
-          detectCard={detectCard}
+          handleHandCard={handleHandCard}
         />
       ))}
     </div>
