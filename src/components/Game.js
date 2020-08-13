@@ -10,6 +10,7 @@ import Deck2 from './Deck2';
 import Hand2 from './Hand2';
 import Graveyard2 from './Graveyard2';
 import Field2 from './Field2';
+import Controls from './Controls';
 import { CardContext } from '../contexts/CardContext.js';
 import { PlayerContext } from '../contexts/PlayerContext.js';
 
@@ -53,22 +54,35 @@ export default function Game() {
   // comp did update : surf in the cycles of the turn
   useEffect(() => {
     switch (true) {
-      case cycleP1.draw:
-        Draw('deck1', 'hand1', 4);
+      case cycleP1.draw && cycleP1.newTurn:
+        {
+          console.log('draw phase');
+
+          //Draw('deck1', 'hand1', 4);
+          setcycleP1((cycle) => ({
+            ...cycle,
+            draw: false,
+            phase1: true,
+          }));
+        }
+        break;
+      case cycleP1.phase1 && cycleP1.newTurn:
+        console.log('phase 1');
+
+        //Draw('deck1', 'hand1', 1);
+
+        break;
+      case cycleP1.atkPhase && cycleP1.newTurn:
+        console.log('attack phase');
+
+        break;
+      case cycleP1.endPhase && cycleP1.newTurn:
+        console.log('end phase');
         setcycleP1((cycle) => ({
           ...cycle,
-          draw: false,
-          phase1: true,
+          atkPhase: false,
+          newTurn: false,
         }));
-        break;
-      case cycleP1.phase1:
-        Draw('deck1', 'hand1', 1);
-        setcycleP1((cycleP1) => ({
-          ...cycleP1,
-          phase1: false,
-        }));
-        break;
-      case cycleP1.atkPhase:
         break;
 
       default:
@@ -84,18 +98,21 @@ export default function Game() {
     }
     eval(`set${hand}`)((hand) => [...hand]);
   };
+
   const summon = (hand, field, card) => {
     eval(field).push(card);
     const newArr = eval(hand).filter((item) => item.id !== card.id);
     eval(`set${hand}`)(newArr);
   };
+
   const handleStartGame = () => {
     setcycleP1((cycle) => ({ ...cycle, draw: true }));
   };
 
   const updateField = (field, card) => {
-    console.log(card);
-    //eval(`set${field}`)([...eval(field), card]);
+    const indexOfCard = eval(field).findIndex((i) => i.id === card.id);
+    eval(field).splice(indexOfCard, 1, card);
+    eval(`set${field}`)(eval(field));
   };
 
   return (
@@ -116,6 +133,7 @@ export default function Game() {
           setfield1={setfield1}
           updateField={updateField}
         />
+        <Controls cycleP1={cycleP1} setcycleP1={setcycleP1} />
       </div>
       <div className='player player2'>
         <LifePoints points={lifePtsP2} />
@@ -123,6 +141,7 @@ export default function Game() {
         <Hand2 Draw={Draw} deck1={deck2} hand2={hand2} />
         <Graveyard2 graveyard2={graveyard2} setgraveyard2={setgraveyard2} />
         <Field2 field2={field2} setfield2={setfield2} />
+        <Controls cycleP2={cycleP2} />
       </div>
     </div>
   );

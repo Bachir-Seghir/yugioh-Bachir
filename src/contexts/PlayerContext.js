@@ -6,12 +6,14 @@ const PlayerCtxProvider = (props) => {
   const [lifePtsP1, setlifePtsP1] = useState({ pts: 4000 });
   const [lifePtsP2, setlifePtsP2] = useState({ pts: 3000 });
   const [cycleP1, setcycleP1] = useState({
+    newTurn: true,
     draw: false,
     phase1: false,
     atkPhase: false,
     endPhase: false,
   });
   const [cycleP2, setcycleP2] = useState({
+    newTurn: false,
     draw: false,
     phase1: false,
     atkPhase: false,

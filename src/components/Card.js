@@ -7,7 +7,7 @@ export default function Card({
   handleHandCard,
   handleFieldCard,
 }) {
-  const { name, atk, def, level } = details;
+  const { name, atk, def, level, pos = 'NA' } = details;
   const handleCardClick = (event) => {
     switch (event.target.parentNode.className) {
       case 'hand':
@@ -36,6 +36,7 @@ export default function Card({
       <div className='card-point'>
         <h5>Atk : {atk}</h5>
         <h5>Def : {def}</h5>
+        <h5>Pos : {pos}</h5>
       </div>
     </div>
   );

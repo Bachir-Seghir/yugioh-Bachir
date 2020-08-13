@@ -14,7 +14,8 @@ export default function Field1({ field1, updateField }) {
   };
   useEffect(() => {
     if (flag) {
-      console.log(selectedCard);
+      updateField('field1', selectedCard);
+      setflag(false);
     }
   });
   return (
