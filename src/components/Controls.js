@@ -1,8 +1,6 @@
 import React from 'react';
 
 export default function Controls({ cycleP1, setcycleP1 }) {
-  console.log(cycleP1);
-
   const handleAtk = () => {
     setcycleP1((cycle) => ({
       ...cycle,
@@ -20,19 +18,34 @@ export default function Controls({ cycleP1, setcycleP1 }) {
   return (
     <div className='controls'>
       <label>
-        <input type='radio' name='cycle' value='draw' />
+        <input type='radio' name='cycle' value='draw' checked={cycleP1.draw} />
         Draw
       </label>
       <label>
-        <input type='radio' name='cycle' value='phase1' />
+        <input
+          type='radio'
+          name='cycle'
+          value='phase1'
+          checked={cycleP1.phase1}
+        />
         Phase 01
       </label>
       <label>
-        <input type='radio' name='cycle' value='atkPhase' />
+        <input
+          type='radio'
+          name='cycle'
+          value='atkPhase'
+          checked={cycleP1.atkPhase}
+        />
         Attack Phase
       </label>
       <label>
-        <input type='radio' name='cycle' value='endPhase' />
+        <input
+          type='radio'
+          name='cycle'
+          value='endPhase'
+          checked={cycleP1.endPhase}
+        />
         End Phase
       </label>
       <button onClick={handleAtk}>Attack</button>

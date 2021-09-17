@@ -3,14 +3,26 @@ import Card from './Card.js';
 import { GetCard } from '../helpers';
 import PositionPicker from './PositionPicker.js';
 
-export default function Field1({ field1, updateField }) {
+export default function Field1({
+  field1,
+  updateField,
+  setAttackerPts,
+  attackerPts,
+  cycleP1,
+}) {
   const [ShowPositionPicker, setShowPositionPicker] = useState(false);
   const [flag, setflag] = useState(false);
   const [selectedCard, setselectedCard] = useState({});
 
   const handleFieldCard = (event) => {
     setselectedCard(GetCard(event, field1));
-    setShowPositionPicker(true);
+    if (cycleP1.phase1) {
+      setShowPositionPicker(true);
+    }
+    setAttackerPts((attackerPts) => ({
+      ...attackerPts,
+      attacker: selectedCard.atk,
+    }));
   };
   useEffect(() => {
     if (flag) {

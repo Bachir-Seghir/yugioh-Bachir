@@ -19,6 +19,7 @@ export default function PostionPicker({
     setselectedCard((card) => ({
       ...card,
       pos: selectedPos,
+      changed: true,
     }));
     setflag(true);
   };

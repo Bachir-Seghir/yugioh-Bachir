@@ -11,7 +11,11 @@ const CardCtxProvider = (props) => {
   const [hand2, sethand2] = useState([]);
   const [field1, setfield1] = useState([]);
   const [field2, setfield2] = useState([]);
-
+  const [summonCount, setSummonCount] = useState(0);
+  const [attackerPts, setAttackerPts] = useState({
+    attacker: '',
+    defender: '',
+  });
   return (
     <CardContext.Provider
       value={{
@@ -31,6 +35,10 @@ const CardCtxProvider = (props) => {
         setfield1,
         field2,
         setfield2,
+        summonCount,
+        setSummonCount,
+        attackerPts,
+        setAttackerPts,
       }}>
       {props.children}
     </CardContext.Provider>

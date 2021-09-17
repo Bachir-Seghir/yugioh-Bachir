@@ -43,6 +43,10 @@ export default function Game() {
     setfield1,
     field2,
     setfield2,
+    setSummonCount,
+    summonCount,
+    attackerPts,
+    setAttackerPts,
   } = useContext(CardContext);
 
   // comp did mount : fill the decks with shuffled cards
@@ -56,9 +60,7 @@ export default function Game() {
     switch (true) {
       case cycleP1.draw && cycleP1.newTurn:
         {
-          console.log('draw phase');
-
-          //Draw('deck1', 'hand1', 4);
+          Draw('deck1', 'hand1', 4);
           setcycleP1((cycle) => ({
             ...cycle,
             draw: false,
@@ -67,17 +69,12 @@ export default function Game() {
         }
         break;
       case cycleP1.phase1 && cycleP1.newTurn:
-        console.log('phase 1');
-
-        //Draw('deck1', 'hand1', 1);
-
+        Draw('deck1', 'hand1', 1);
+        setSummonCount(1);
         break;
       case cycleP1.atkPhase && cycleP1.newTurn:
-        console.log('attack phase');
-
         break;
       case cycleP1.endPhase && cycleP1.newTurn:
-        console.log('end phase');
         setcycleP1((cycle) => ({
           ...cycle,
           atkPhase: false,
@@ -126,12 +123,21 @@ export default function Game() {
           cycleP1={cycleP1}
           setcycleP1={setcycleP1}
         />
-        <Hand1 hand1={hand1} field1={field1} summon={summon} />
+        <Hand1
+          hand1={hand1}
+          field1={field1}
+          summon={summon}
+          setSummonCount={setSummonCount}
+          summonCount={summonCount}
+        />
         <Graveyard1 graveyard1={graveyard1} setgraveyard1={setgraveyard1} />
         <Field1
           field1={field1}
           setfield1={setfield1}
           updateField={updateField}
+          setAttackerPts={setAttackerPts}
+          attackerPts={attackerPts}
+          cycleP1={cycleP1}
         />
         <Controls cycleP1={cycleP1} setcycleP1={setcycleP1} />
       </div>
@@ -141,7 +147,6 @@ export default function Game() {
         <Hand2 Draw={Draw} deck1={deck2} hand2={hand2} />
         <Graveyard2 graveyard2={graveyard2} setgraveyard2={setgraveyard2} />
         <Field2 field2={field2} setfield2={setfield2} />
-        <Controls cycleP2={cycleP2} />
       </div>
     </div>
   );
